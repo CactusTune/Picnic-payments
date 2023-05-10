@@ -37,8 +37,8 @@ const Hero = () => {
             Grow, Learn, Visit and become more social by booking your picnics
             with family, friends and Coleagues
           </SubHeading>
-          <ModalComponent text="Singup" variant="primary" />
-          <ModalComponent text="Login" variant="danger" />
+          <ModalComponent text="Singup" variant="primary" isSignupFlow={true} />
+          <ModalComponent text="Login" variant="danger" isSignupFlow={true}/>
         </HeaderContainer>
       </Container>
     </HeroComponent>
